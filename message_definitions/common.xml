@@ -3611,6 +3611,154 @@
             <field type="float" name="size_y">Size in radians of target along y-axis</field>
         </message>
 
+
+        <message id="221" name="VICON_1Q">
+         <field type="uint8_t" name="mode_1">Quad ID</field>
+         <field type="int16_t" name="t_1">thrust cmd</field>
+         <field type="int16_t" name="r_1">roll cmd</field>
+         <field type="int16_t" name="p_1">pitch cmd</field>
+         <field type="int16_t" name="y_1">yaw cmd</field>
+         <field type="int16_t" name="pwm_1">pwm cmd</field>
+       </message>
+
+       <message id="222" name="VICON_2Q">
+         <field type="uint8_t" name="mode_1">Quad ID</field>
+         <field type="int16_t" name="t_1">thrust cmd</field>
+         <field type="int16_t" name="r_1">roll cmd</field>
+         <field type="int16_t" name="p_1">pitch cmd</field>
+         <field type="int16_t" name="y_1">yaw cmd</field>
+         <field type="int16_t" name="pwm_1">pwm cmd</field>
+         <field type="uint8_t" name="mode_2">Quad ID</field>
+         <field type="int16_t" name="t_2">thrust cmd</field>
+         <field type="int16_t" name="r_2">roll cmd</field>
+         <field type="int16_t" name="p_2">pitch cmd</field>
+         <field type="int16_t" name="y_2">yaw cmd</field>
+         <field type="int16_t" name="pwm_2">pwm cmd</field>
+       </message>
+      
+       <message id="223" name="VICON_3Q">
+         <field type="uint8_t" name="mode_1">Quad ID</field>
+         <field type="int16_t" name="t_1">thrust cmd</field>
+         <field type="int16_t" name="r_1">roll cmd</field>
+         <field type="int16_t" name="p_1">pitch cmd</field>
+         <field type="int16_t" name="y_1">yaw cmd</field>
+         <field type="int16_t" name="pwm_1">pwm cmd</field>
+         <field type="uint8_t" name="mode_2">Quad ID</field>
+         <field type="int16_t" name="t_2">thrust cmd</field>
+         <field type="int16_t" name="r_2">roll cmd</field>
+         <field type="int16_t" name="p_2">pitch cmd</field>
+         <field type="int16_t" name="y_2">yaw cmd</field>
+         <field type="int16_t" name="pwm_2">pwm cmd</field>
+         <field type="uint8_t" name="mode_3">Quad ID</field>
+         <field type="int16_t" name="t_3">thrust cmd</field>
+         <field type="int16_t" name="r_3">roll cmd</field>
+         <field type="int16_t" name="p_3">pitch cmd</field>
+         <field type="int16_t" name="y_3">yaw cmd</field>
+         <field type="int16_t" name="pwm_3">pwm cmd</field>
+       </message>
+       
+       
+       <message id="224" name="VICON_4Q">
+         <field type="uint8_t" name="mode_1">Quad ID</field>
+         <field type="int16_t" name="t_1">thrust cmd</field>
+         <field type="int16_t" name="r_1">roll cmd</field>
+         <field type="int16_t" name="p_1">pitch cmd</field>
+         <field type="int16_t" name="y_1">yaw cmd</field>
+         <field type="int16_t" name="pwm_1">pwm cmd</field>
+         <field type="uint8_t" name="mode_2">Quad ID</field>
+         <field type="int16_t" name="t_2">thrust cmd</field>
+         <field type="int16_t" name="r_2">roll cmd</field>
+         <field type="int16_t" name="p_2">pitch cmd</field>
+         <field type="int16_t" name="y_2">yaw cmd</field>
+         <field type="int16_t" name="pwm_2">pwm cmd</field>
+         <field type="uint8_t" name="mode_3">Quad ID</field>
+         <field type="int16_t" name="t_3">thrust cmd</field>
+         <field type="int16_t" name="r_3">roll cmd</field>
+         <field type="int16_t" name="p_3">pitch cmd</field>
+         <field type="int16_t" name="y_3">yaw cmd</field>
+         <field type="int16_t" name="pwm_3">pwm cmd</field>
+         <field type="uint8_t" name="mode_4">Quad ID</field>
+         <field type="int16_t" name="t_4">thrust cmd</field>
+         <field type="int16_t" name="r_4">roll cmd</field>
+         <field type="int16_t" name="p_4">pitch cmd</field>
+         <field type="int16_t" name="y_4">yaw cmd</field>
+         <field type="int16_t" name="pwm_4">pwm cmd</field>
+       </message>
+       
+       
+       <message id="225" name="VICON_5Q">
+         <field type="uint8_t" name="mode_1">Quad ID</field>
+         <field type="int16_t" name="t_1">thrust cmd</field>
+         <field type="int16_t" name="r_1">roll cmd</field>
+         <field type="int16_t" name="p_1">pitch cmd</field>
+         <field type="int16_t" name="y_1">yaw cmd</field>
+         <field type="int16_t" name="pwm_1">pwm cmd</field>
+         <field type="uint8_t" name="mode_2">Quad ID</field>
+         <field type="int16_t" name="t_2">thrust cmd</field>
+         <field type="int16_t" name="r_2">roll cmd</field>
+         <field type="int16_t" name="p_2">pitch cmd</field>
+         <field type="int16_t" name="y_2">yaw cmd</field>
+         <field type="int16_t" name="pwm_2">pwm cmd</field>
+         <field type="uint8_t" name="mode_3">Quad ID</field>
+         <field type="int16_t" name="t_3">thrust cmd</field>
+         <field type="int16_t" name="r_3">roll cmd</field>
+         <field type="int16_t" name="p_3">pitch cmd</field>
+         <field type="int16_t" name="y_3">yaw cmd</field>
+         <field type="int16_t" name="pwm_3">pwm cmd</field>
+         <field type="uint8_t" name="mode_4">Quad ID</field>
+         <field type="int16_t" name="t_4">thrust cmd</field>
+         <field type="int16_t" name="r_4">roll cmd</field>
+         <field type="int16_t" name="p_4">pitch cmd</field>
+         <field type="int16_t" name="y_4">yaw cmd</field>
+         <field type="int16_t" name="pwm_4">pwm cmd</field>
+         <field type="uint8_t" name="mode_5">Quad ID</field>
+         <field type="int16_t" name="t_5">thrust cmd</field>
+         <field type="int16_t" name="r_5">roll cmd</field>
+         <field type="int16_t" name="p_5">pitch cmd</field>
+         <field type="int16_t" name="y_5">yaw cmd</field>
+         <field type="int16_t" name="pwm_5">pwm cmd</field>
+       </message>
+
+       <message id="226" name="VICON_6Q">
+         <field type="uint8_t" name="mode_1">Quad ID</field>
+         <field type="int16_t" name="t_1">thrust cmd</field>
+         <field type="int16_t" name="r_1">roll cmd</field>
+         <field type="int16_t" name="p_1">pitch cmd</field>
+         <field type="int16_t" name="y_1">yaw cmd</field>
+         <field type="int16_t" name="pwm_1">pwm cmd</field>
+         <field type="uint8_t" name="mode_2">Quad ID</field>
+         <field type="int16_t" name="t_2">thrust cmd</field>
+         <field type="int16_t" name="r_2">roll cmd</field>
+         <field type="int16_t" name="p_2">pitch cmd</field>
+         <field type="int16_t" name="y_2">yaw cmd</field>
+         <field type="int16_t" name="pwm_2">pwm cmd</field>
+         <field type="uint8_t" name="mode_3">Quad ID</field>
+         <field type="int16_t" name="t_3">thrust cmd</field>
+         <field type="int16_t" name="r_3">roll cmd</field>
+         <field type="int16_t" name="p_3">pitch cmd</field>
+         <field type="int16_t" name="y_3">yaw cmd</field>
+         <field type="int16_t" name="pwm_3">pwm cmd</field>
+         <field type="uint8_t" name="mode_4">Quad ID</field>
+         <field type="int16_t" name="t_4">thrust cmd</field>
+         <field type="int16_t" name="r_4">roll cmd</field>
+         <field type="int16_t" name="p_4">pitch cmd</field>
+         <field type="int16_t" name="y_4">yaw cmd</field>
+         <field type="int16_t" name="pwm_4">pwm cmd</field>
+         <field type="uint8_t" name="mode_5">Quad ID</field>
+         <field type="int16_t" name="t_5">thrust cmd</field>
+         <field type="int16_t" name="r_5">roll cmd</field>
+         <field type="int16_t" name="p_5">pitch cmd</field>
+         <field type="int16_t" name="y_5">yaw cmd</field>
+         <field type="int16_t" name="pwm_5">pwm cmd</field>
+         <field type="uint8_t" name="mode_6">Quad ID</field>
+         <field type="int16_t" name="t_6">thrust cmd</field>
+         <field type="int16_t" name="r_6">roll cmd</field>
+         <field type="int16_t" name="p_6">pitch cmd</field>
+         <field type="int16_t" name="y_6">yaw cmd</field>
+         <field type="int16_t" name="pwm_6">pwm cmd</field>
+       </message>
+
+
         <!-- MESSAGE IDs 180 - 229: Space for custom messages in individual projectname_messages.xml files -->
         <message id="230" name="ESTIMATOR_STATUS">
             <description>Estimator status message including flags, innovation test ratios and estimated accuracies. The flags message is an integer bitmask containing information on which EKF outputs are valid. See the ESTIMATOR_STATUS_FLAGS enum definition for further information. The innovaton test ratios show the magnitude of the sensor innovation divided by the innovation check threshold. Under normal operation the innovaton test ratios should be below 0.5 with occasional values up to 1.0. Values greater than 1.0 should be rare under normal operation and indicate that a measurement has been rejected by the filter. The user should be notified if an innovation test ratio greater than 1.0 is recorded. Notifications for values in the range between 0.5 and 1.0 should be optional and controllable by the user.</description>
